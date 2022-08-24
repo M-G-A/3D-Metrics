@@ -23,7 +23,7 @@ https://arxiv.org/abs/2207.03720
 
 ```
 @inproceedings{ ,
-	author = {Adam, Michael and  Piccolrovazzi, Martin and Eger, Sebastian and Steinbach, Eckehard},
+	author = {Adam, Michael G. and  Piccolrovazzi, Martin and Eger, Sebastian and Steinbach, Eckehard},
 	title = {Bounding Box Disparity: 3D Metrics for Object Detection with Full Degree of Freedom},
 	booktitle = {IEEE ICIP 2022},
 	year = {2022},
