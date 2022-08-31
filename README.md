@@ -33,8 +33,10 @@ https://arxiv.org/abs/2207.03720
 }
 ```
 
-Note of the author:<br />
-Although I lost the race with google (https://github.com/google-research-datasets/Objectron), regarding the first implementation of IoU (I implemented mine parallely back then), I think my explanations in the paper are more easy to follow ;). Nevertheless, v2v and bbd should still be completely new.
+Note of the authors (updated):<br />
+Googles implementation of IoU (https://github.com/google-research-datasets/Objectron) apparently assumes boxes, which are only on rotation apart. Our implementation does not have this assumption. <br />
+Facebooks implementation in PyTorch3D (https://pytorch3d.org/docs/iou3d, Code published end of 2021) seems to be a similar parallel work, however they meshify the boxes and do not state or explain there equations/method (in the corresponding paper IoU isn’t even discussed). We give those explanations in the paper and we think this makes it more easy to follow ;).<br /> 
+Nevertheless, v2v and bbd should be completely new.
 
 ## Acknowledgement
 This work is funded by Germany’s Federal Ministry of Education and Research within the project KIMaps (grant ID #01IS20031C).
