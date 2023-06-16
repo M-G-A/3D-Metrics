@@ -7,7 +7,7 @@ def compare(bbs, metric='BBD'):
     for i in range(n):
         for j in range(i,n):
             d[i,j] = getattr(bbs[i],metric)(bb[j])
-    return n
+    return d
 
 class OBB():
     def __init__(self,T):
